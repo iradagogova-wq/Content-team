@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "last_run_at": null,
+  "last_successful_publish_at": null,
+  "last_published_media_id": null,
+  "pending_publication": null,
+  "recent_hypotheses": [],
+  "recent_winners": [],
+  "recent_losers": [],
+  "metrics_snapshots": [],
+  "experiments": [],
+  "notes": [
+    "Bootstrap state created. Metricool must be connected before autonomous publishing can start.",
+    "ChatPlace AI balance was 0 at bootstrap; do not rely on Virale generation until balance is available."
+  ]
+}
