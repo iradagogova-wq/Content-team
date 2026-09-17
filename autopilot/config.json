@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "status": "bootstrap",
+  "primary_account": {
+    "platform": "instagram",
+    "handle": "@irada.gogovapro",
+    "chatplace_bot_id": "01a08ccb-d271-7235-9f3b-f5985fc0bc18"
+  },
+  "repository": "iradagogova-wq/Content-team",
+  "publisher": {
+    "primary": "metricool",
+    "status": "requires_connection",
+    "fallback": "manual_queue_only"
+  },
+  "analytics": {
+    "primary": "metricool",
+    "secondary": "chatplace_virale",
+    "chatplace_ai_balance_cents_at_bootstrap": 0
+  },
+  "creative_engine": {
+    "copy": "chatgpt",
+    "visual_primary": "chatgpt_image_generation",
+    "visual_secondary": "chatplace_virale_when_credits_available",
+    "canva": "brand_asset_and_template_support_only_when_no_approval_block"
+  },
+  "cadence": {
+    "frequency": "daily",
+    "creation_window": "morning",
+    "publish_time_strategy": "metricool_recommended_time",
+    "publish_fallback": "best_recent_audience_window"
+  },
+  "learning_loop": {
+    "evaluation_windows_hours": [24, 72],
+    "content_mix": {
+      "proven_patterns": 0.7,
+      "adjacent_tests": 0.2,
+      "exploration": 0.1
+    },
+    "compare_with": "rolling_median_same_format_last_10_posts",
+    "primary_signals": [
+      "shares_per_reach",
+      "saves_per_reach",
+      "follows_or_profile_actions_per_reach",
+      "comments_per_reach",
+      "watch_or_completion_rate_when_available"
+    ]
+  },
+  "quality_gates": [
+    "one clear content job per publication",
+    "strong first-frame or cover hook",
+    "no unsupported factual claims",
+    "no repetition of a recent hook or angle unless intentionally iterating a winner",
+    "specific CTA matched to the funnel goal",
+    "visual readable on mobile",
+    "brand voice from brand/voice.md",
+    "scenario rules from brand/scenario-standard.md",
+    "psychology rules from brand/psychology.md"
+  ],
+  "source_of_truth": {
+    "brand": [
+      "brand/voice.md",
+      "brand/scenario-standard.md",
+      "brand/psychology.md",
+      "brand/swipe-file.md"
+    ],
+    "ideas": "pipeline/ideas.md",
+    "calendar": "pipeline/calendar.md",
+    "results": "results/",
+    "autopilot_state": "autopilot/state.json"
+  }
+}
