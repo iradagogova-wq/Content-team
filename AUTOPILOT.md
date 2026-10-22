@@ -1,6 +1,6 @@
 # Content Autopilot
 
-This repository now supports a closed-loop Instagram content system.
+This repository describes a closed-loop Instagram content system. Operation is not confirmed by configuration alone.
 
 ## Architecture
 
@@ -40,12 +40,18 @@ The system must never confuse correlation with proof. Performance observations a
 - `pipeline/*` — ideas, scripts and publication calendar.
 - `results/*` — measurements and experiment conclusions.
 
+## Editorial rules
+
+Read `brand/scenario-standard.md` and `brand/lead-magnet.md` before creation. Expert Reels use one A → B change and one of three jobs: Новый взгляд, Метод, Разбор. Require novelty, causal transitions, evidence, practical value and semantic movement checked every 3–5 seconds against the recording. Route: Reel → caption → article → product. Optional code word belongs in the caption, never spoken in video. Unfilled voice examples are not a passed voice check. Existing publishing settings and integrations are unchanged.
+
 ## Current bootstrap status
 
-- Instagram bot connected in ChatPlace: `@irada.gogovapro`.
+- Bootstrap record (not reverified in this audit): Instagram bot connected in ChatPlace: `@irada.gogovapro`.
 - GitHub repository ready: `iradagogova-wq/Content-team`.
 - Metricool connection: required before autonomous publishing can be considered live.
 - ChatPlace AI credits at bootstrap: 0; Virale generation must not be treated as a required dependency.
+
+Repository audit on 2026-10-23: config still says `bootstrap` / `requires_connection`; state contains no successful publication. Autonomous publication is **not verified**. No publication was attempted in this editorial audit.
 
 ## Definition of LIVE
 

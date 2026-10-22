@@ -14,7 +14,8 @@ Create and publish one high-quality Instagram content unit per day, learn from i
 6. `brand/swipe-file.md`
 7. `pipeline/ideas.md`
 8. `pipeline/calendar.md`
-9. the newest relevant files in `research/` and `results/`
+9. `brand/lead-magnet.md`
+10. the newest relevant files in `research/` and `results/`
 
 Never silently change a locked brand rule. If repository instructions conflict, prefer the newest explicit rule that is clearly marked as approved/final.
 
@@ -49,6 +50,10 @@ Avoid repeating the same hook, topic, visual opening, or CTA from the recent cal
 Choose the format using evidence. Do not force carousels if reels are materially stronger, and vice versa.
 
 ### 4. Build the publication
+
+For expert Reels follow the current scenario standard: one A → B change; Новый взгляд / Метод / Разбор; novelty, causal transitions, timely evidence and practical value. Check semantic movement every 3–5 seconds against the recording, not edit frequency. Route through caption → article → product. Optional code word goes only in the caption, never in video speech. Do not restore seven mandatory blocks, fixed duration or compulsory spoken save prompts.
+
+Voice placeholders are not approved voice examples: mark the draft voice unverified and keep it queued until actual author examples/approval resolve this. Do not invent the author’s tone. Verify the promised article and delivery route before release.
 Create the complete content package:
 - objective
 - audience/job-to-be-done
@@ -81,6 +86,8 @@ Before publishing, verify:
 - caption and CTA are final
 - no unsupported health, financial, legal, or performance claims
 
+Only report Published after verifying the resulting post on the correct account; scheduling success is Scheduled, not Published. A successful API request alone does not prove the post exists. Do not run a test publication merely to audit instructions.
+
 ### 7. Persist state
 After publishing, update `autopilot/state.json` with:
 - run timestamp
@@ -111,4 +118,5 @@ Update the next 7-day hypothesis set. Do not throw away a working system because
 
 ## Output after each run
 Return only a concise operational report:
-`Published/Scheduled | format | topic | hook | hypothesis | why this was chosen | next measurement window`.
+`Published/Scheduled/Queued/Blocked | format | topic | hook | hypothesis | verified evidence or blocker | next measurement window`.
+Never infer LIVE status from config or an empty state; require the end-to-end evidence in `AUTOPILOT.md`. Preserve existing integrations and publishing configuration during editorial audits.
